@@ -1,4 +1,4 @@
-#include"stdio.h"
+#include"stdio.h"  //输入几个数按‘0’直接求和
 #define N 100
 int main()
 {
@@ -7,8 +7,8 @@ int main()
 	int sum=0;
    while(1)
    {
-       scanf("%d\n",&a);
-       if(a==0)
+       scanf("%d",&a);
+       if(a==0)//为0时跳出循环
                break;
    }
    a=0;
